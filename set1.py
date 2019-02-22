@@ -19,7 +19,7 @@ thisset = set(("google", "runoob", "taobao"))
 thisset.remove("taobao")
 print(thisset)
 
-#移除不存在的元素不會出錯
+#移除不存在的元素不會出錯的方法
 # s.discard(x)
 thisset = set(("google", "runoob", "taobao"))
 thisset.discard("facebook")#不會因不存在而發生錯誤
